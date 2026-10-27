@@ -1,4 +1,16 @@
-MorseCONSOLE 0.159 - Windows x64 installer
+MorseCONSOLE 0.236 — changes since 0.232
+
+Added optional sidebar auto-hide, available in both full-screen and windowed mode.
+Hover over the edge handle to reveal the panel. It hides automatically when the pointer moves away.
+The panel overlays the spectrum, keeping the spectrum and waterfall size unchanged.
+The panel stays open while editing fields, dragging sliders or using dropdown lists.
+Auto-hide supports both left and right panel positions, and the preference is saved.
+Hide Panel / Show Panel is removed from the top menu while auto-hide is enabled.
+Fixed the auto-hide option’s position in Settings to prevent overlap with the waterfall palette selector.
+Enable it in Settings → AUTO-HIDE PANEL.
+
+
+MorseCONSOLE - Windows x64 installer
 
 Requirements: Windows 10/11 x64, .NET Framework 4.7.2 or later with WPF, Yaesu FT-710 and compatible USB audio/CAT/FTDI interfaces. Normal Windows 10/11 installations include the required .NET Framework runtime.
 
