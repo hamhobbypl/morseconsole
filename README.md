@@ -1,13 +1,18 @@
-MorseCONSOLE 0.236 — changes since 0.232
+# MorseCONSOLE 0.236
 
-Added optional sidebar auto-hide, available in both full-screen and windowed mode.
-Hover over the edge handle to reveal the panel. It hides automatically when the pointer moves away.
-The panel overlays the spectrum, keeping the spectrum and waterfall size unchanged.
-The panel stays open while editing fields, dragging sliders or using dropdown lists.
-Auto-hide supports both left and right panel positions, and the preference is saved.
-Hide Panel / Show Panel is removed from the top menu while auto-hide is enabled.
-Fixed the auto-hide option’s position in Settings to prevent overlap with the waterfall palette selector.
-Enable it in Settings → AUTO-HIDE PANEL.
+## Changes since 0.232
+
+### Sidebar auto-hide
+
+- Added optional sidebar auto-hide in both full-screen and windowed modes.
+- Hover over the edge handle to reveal the panel. It hides automatically when the pointer moves away.
+- The panel overlays the spectrum, keeping the spectrum and waterfall dimensions unchanged.
+- The panel remains open while editing fields, dragging sliders or using dropdown lists.
+- Auto-hide supports both left and right panel positions. The preference is saved.
+- The **Hide Panel / Show Panel** option is removed from the top menu while auto-hide is enabled.
+- Fixed the position of the auto-hide option in Settings to prevent overlap with the waterfall palette selector.
+
+Enable this feature under **Settings → AUTO-HIDE PANEL**.
 
 
 MorseCONSOLE - Windows x64 installer
