@@ -10,7 +10,6 @@
 - The application's **AF GAIN** is muted during the scan and restored afterwards.
 - **STOP**, the radio's HI-SWR alarm, an SWR reading above **3:1**, missing RF output or a CAT error stop the measurement.
 - Results can be exported to **CSV**. Diagnostic details are saved in swr-scan.log.
-- The scanner window uses the application's dark styling, rounded corners and custom title bar.
 
 The antenna tuner must be OFF. Scanning transmits RF; select a clear range permitted by your licence. SWR and power values are approximate readings from the radio's meters, not a calibrated antenna analyser measurement.
 
