@@ -1,3 +1,27 @@
+
+## MorseCONSOLE 0.257 — Changes since 0.250
+
+### Macro improvements
+
+- Added an editable **RST** field after **DX CALL** in the full-screen QSO layout. Select a preset or enter a report manually.
+- Added `{RST}` to macro templates and editor suggestions.
+- The outgoing RST is remembered between sessions. Clicking a decoded report does not change it or the macro templates.
+- Updated the default QSO report macro to use `{RST}`, while preserving custom templates.
+- Improved **EXCH** positioning in the CWT layout.
+
+### Logger improvements
+
+- **RCVD** and **SENT** now support both preset selection and manual entry in the quick logger and the Logger window.
+- Removed **ADVANCED RST** and the expanded report list.
+
+### Spectrum controls
+
+- Added CAT-controlled **CENTER** and **CURSOR** buttons below the VFO controls in full-screen mode.
+
+### Updating
+
+Install over the existing version. Configuration, registration, custom macros and QSO data are preserved.
+
 ## MorseCONSOLE 0.250 — changes since 0.236
 
 ### New SWR scanner
