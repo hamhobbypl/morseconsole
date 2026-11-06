@@ -1,4 +1,21 @@
+## MorseCONSOLE 0.262 — Changes since 0.257
 
+### AUTO replies
+
+- Manual edits to an **AUTO** reply are preserved while the decoder continues receiving text.
+- **SEND** transmits the reply currently on screen. Click **AUTO** again to replace it with the latest suggestion.
+
+### Signal meter and callsign lookup
+
+- The header displays an **S-meter** during reception and switches to **POWER** and **SWR** during transmission.
+- Signal strength is displayed as **S0–S9**. Readings above S9 are shown in dB, with markers at **S9**, **+20**, **+40**, and **+60**.
+- The [**QRZ.COM**](https://www.qrz.com/) button opens the profile for the callsign entered in **DX CALL** in your browser.
+
+### Multi-monitor display settings
+
+- Under **Settings → DISPLAY**, choose **Automatic** (default) or **Fit to monitor**.
+- **Fit to monitor** lets you adjust each of the four screen margins independently from **0 to 128 px**. Margin settings are saved separately for each monitor.
+- **APPLY** updates an already maximized window immediately. **RESET** returns all four margin sliders to **0 px**.
 ## MorseCONSOLE 0.257 — Changes since 0.250
 
 ### Macro improvements
