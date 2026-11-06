@@ -1,3 +1,25 @@
+## MorseCONSOLE 0.275 — Changes since 0.262
+
+### USB transmit audio and ALC
+
+- **Settings → TX AUDIO LEVEL** adjusts the USB audio sent to the FT-710 for audio CW.
+- **TUNE** transmits a continuous 700 Hz tone for up to 10 seconds. The FT-710 ALC reading is displayed live while you adjust the audio level.
+- **AUTO ALC** starts at 10% audio level and raises it in 10-point steps. It stops transmitting when the ALC reading levels off and saves the previous step. If no plateau is found, it restores the starting level. The automatic test is limited to 15 seconds.
+- **TUNE** and **AUTO ALC** ask for confirmation before keying the transmitter. **NO** is selected by default.
+- Tone tests temporarily select audio CW and enable BK-IN, then restore the previous settings when the test ends. Use VFO A in CW mode with SPLIT off and select the radio's USB TX audio output.
+
+### Contest macros and logging
+
+- Added **CONTEST** to the full-screen macro profiles, with six starter macros.
+- Set the fixed exchange **{EXCH}** and next serial **{COUNT}** directly in the contest row. Use the minus and plus buttons or type the serial.
+- Successful contest macros fill **EXCH SENT**. The serial advances after saving a new QSO containing the transmitted serial for that callsign.
+- Added **EXCH RCVD** and **EXCH SENT** to the QSO Logger and to the quick logger in CONTEST mode.
+- ADIF export and Log4OM2 forwarding include the exchange as **SRX_STRING** and **STX_STRING**, plus **STX** for a transmitted serial.
+
+### Updating
+
+Close MorseCONSOLE and run the Windows x64 installer over the existing version. Settings, registration, macros and QSO data are preserved. You can skip driver installation if the radio already connects correctly.
+
 ## MorseCONSOLE 0.262 — Changes since 0.257
 
 ### AUTO replies
