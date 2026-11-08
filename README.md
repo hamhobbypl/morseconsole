@@ -1,7 +1,9 @@
 
+## MorseCONSOLE 0.280 - Changes since version **0.279**.
 
+### Installer BUG FIX
 
-## MorseCONSOLE 0.279 - Changes since version **0.275**.
+If you have problem with reinstall app just install new version without uninstalling old.
 
 ### Display and macros
 
