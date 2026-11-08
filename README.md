@@ -1,3 +1,6 @@
+## MorseCONSOLE 0.280 - Changes since version **0.279**.
+
+###  Uninstall BUG FiX
 
 ## MorseCONSOLE 0.279 - Changes since version **0.275**.
 
