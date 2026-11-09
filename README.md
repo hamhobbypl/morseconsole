@@ -1,26 +1,3 @@
-## MorseCONSOLE 0.279 - Changes since version **0.275**.
-
-
-### Display and macros
-
-- Improved text alignment and reduced clipping at **100%** and **125%** Windows display scaling.
-- The macro panel switches to a compact layout when the window is maximized and vertical space is limited, keeping the RF spectrum and waterfall visible.
-- Missing required macro values are highlighted in red in both preview and edit modes. Sending is disabled until all required values are entered.
-
-### CW decoder
-
-- Improved CW decoding and word spacing.
-
-### QSO Logger
-
-- Widened the Logger window and added **EXCH RECEIVED** and **EXCH SENT** columns to the saved QSO list.
-- Added a **QRZ.COM** button that opens the selected QSO's callsign page in the default browser.
-
-### LOG4OM 2
-
-- Added manual forwarding for the selected saved QSO, including contest exchanges and the sent serial number when available.
-- Manual forwarding also works when automatic forwarding is disabled.
-
 
 ## MorseCONSOLE 0.275 — Changes since 0.262
 
