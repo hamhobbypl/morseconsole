@@ -1,3 +1,21 @@
+## MorseCONSOLE 0.287
+
+Changes since version 0.279.
+
+### Display scaling and multi-monitor support
+
+- MorseCONSOLE now uses the monitor’s physical pixel dimensions for layout. At 125% Windows scaling, a 1920 × 1080 laptop display can have enough room for the expanded macro panel, including the **EDIT** buttons.
+
+### Callsign synchronization
+- Typing, pasting, or clearing a callsign in the **Quick Logger**, **QSO Logger**, or **CW TX** automatically updates the other two fields.
+- Browsing saved QSOs preserves the active **CW TX** callsign.
+
+### Installer and updates
+
+- Updates now register a version-specific uninstaller, so installation can proceed even when the previous uninstaller is locked.
+- Opening the uninstaller directly now starts the uninstall process.
+
+
 ## MorseCONSOLE 0.279 - Changes since version **0.275**.
 
 
